@@ -11,6 +11,11 @@ class Buyer extends Model
 {
     use HasFactory;
 
+    public function user(): BelongsTo
+    {
+        return $this->belongsTo(User::class);
+    }
+
     public function username(): BelongsTo
     {
         return $this->belongsTo(Username::class);
