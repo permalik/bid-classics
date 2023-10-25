@@ -11,6 +11,11 @@ class Vehicle extends Model
 {
     use HasFactory;
 
+    public function vin(): BelongsTo
+    {
+        return $this->belongsTo(Vin::class);
+    }
+
     public function year(): BelongsTo
     {
         return $this->belongsTo(Year::class);

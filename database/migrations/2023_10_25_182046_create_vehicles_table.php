@@ -17,6 +17,7 @@ return new class extends Migration
             $table->foreignId('make_id');
             $table->foreignId('classic_id');
             $table->foreignId('condition_id');
+            $table->foreignId('vin_id');
             $table->foreignId('sale_id');
             $table->integer('mileage');
             $table->integer('price');
