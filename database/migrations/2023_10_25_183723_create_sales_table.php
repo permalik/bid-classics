@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('sales', function (Blueprint $table) {
             $table->id();
             $table->foreignId('vehicle_id');
-            $table->string('payment_method', 6);
+            $table->string('payment_method', 6)->nullable();
             $table->decimal('amount');
             $table->boolean('is_sold');
             $table->timestamps();
