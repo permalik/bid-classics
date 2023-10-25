@@ -12,6 +12,6 @@ class Username extends Model
 
     public function buyer(): HasOne
     {
-        return $this->belongsTo(Buyer::class);
+        return $this->hasOne(Buyer::class);
     }
 }
