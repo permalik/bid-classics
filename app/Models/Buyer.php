@@ -14,4 +14,9 @@ class Buyer extends Model
     {
         return $this->belongsTo(Username::class);
     }
+
+    public function state(): BelongsTo
+    {
+        return $this->belongsTo(State::class);
+    }
 }
