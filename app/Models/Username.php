@@ -14,4 +14,9 @@ class Username extends Model
     {
         return $this->hasOne(Buyer::class);
     }
+
+    public function seller(): HasOne
+    {
+        return $this->hasOne(Seller::class);
+    }
 }
