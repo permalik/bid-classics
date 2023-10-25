@@ -15,7 +15,8 @@ return new class extends Migration
             $table->id();
             $table->foreignId('vehicle_id');
             $table->string('payment_method', 6)->nullable();
-            $table->decimal('amount');
+            $table->decimal('asking_price');
+            $table->decimal('purchase_price');
             $table->boolean('is_sold');
             $table->timestamps();
         });
