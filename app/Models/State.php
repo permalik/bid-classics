@@ -5,19 +5,18 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class State extends Model
 {
     use HasFactory;
 
-    public function buyer(): HasMany
+    public function buyers(): HasMany
     {
         return $this->hasMany(Buyer::class);
     }
 
-    public function seller(): HasOne
+    public function sellers(): HasMany
     {
-        return $this->hasOne(Seller::class);
+        return $this->hasMany(Seller::class);
     }
 }
