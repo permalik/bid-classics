@@ -4,11 +4,12 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use App\Models\Vin;
+use App\Models\Year;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
 {
-    protected array $identifiers = [
+    protected array $vins = [
         ['identifier' => 'A3B2D9F1G8H6J45'],
         ['identifier' => 'L7M0N2P4Q9R1S37'],
         ['identifier' => 'U5V8W3Y1Z7A9B29'],
@@ -61,10 +62,33 @@ class DatabaseSeeder extends Seeder
         ['identifier' => 'L7M0N2P4Q9R1S3T68'],
     ];
 
-
+    protected array $names = [
+        ['name' => '1960'],
+        ['name' => '1961'],
+        ['name' => '1962'],
+        ['name' => '1963'],
+        ['name' => '1964'],
+        ['name' => '1965'],
+        ['name' => '1966'],
+        ['name' => '1967'],
+        ['name' => '1968'],
+        ['name' => '1969'],
+        ['name' => '1970'],
+        ['name' => '1971'],
+        ['name' => '1972'],
+        ['name' => '1973'],
+        ['name' => '1974'],
+        ['name' => '1975'],
+        ['name' => '1976'],
+        ['name' => '1977'],
+        ['name' => '1978'],
+        ['name' => '1979']
+    ];
 
     public function run(): void
     {
-        foreach($this->identifiers as $identifier) { Vin::create($identifier); }
+        foreach($this->names as $name) { Year::create($name); }
+
+        foreach($this->vins as $vin) { Vin::create($vin); }
     }
 }
