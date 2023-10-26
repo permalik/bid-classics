@@ -30,4 +30,9 @@ class Buyer extends Model
     {
         return $this->belongsToMany(Sale::class);
     }
+
+    public function bids(): BelongsToMany
+    {
+        return $this->belongsToMany(Bid::class);
+    }
 }
