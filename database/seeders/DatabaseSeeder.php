@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Make;
 use App\Models\Vin;
 use App\Models\Year;
 use Illuminate\Database\Seeder;
@@ -85,10 +86,44 @@ class DatabaseSeeder extends Seeder
         ['name' => '1979']
     ];
 
+    protected array $makes = array(
+        ['name' => 'Alfa Romeo'],
+        ['name' => 'AMC'],
+        ['name' => 'Austin-Healey'],
+        ['name' => 'BMW'],
+        ['name' => 'Buick'],
+        ['name' => 'Cadillac'],
+        ['name' => 'Chevrolet'],
+        ['name' => 'Chrysler'],
+        ['name' => 'Dodge'],
+        ['name' => 'Fiat'],
+        ['name' => 'Ford'],
+        ['name' => 'Jaguar'],
+        ['name' => 'Jeep'],
+        ['name' => 'Lincoln'],
+        ['name' => 'MG'],
+        ['name' => 'Mercedes-Benz'],
+        ['name' => 'Mercury'],
+        ['name' => 'Nash'],
+        ['name' => 'Oldsmobile'],
+        ['name' => 'Packard'],
+        ['name' => 'Plymouth'],
+        ['name' => 'Pontiac'],
+        ['name' => 'Porsche'],
+        ['name' => 'Saab'],
+        ['name' => 'Studebaker'],
+        ['name' => 'Triumph'],
+        ['name' => 'Volkswagen'],
+        ['name' => 'Volvo']
+    );
+
+
     public function run(): void
     {
-        foreach($this->names as $name) { Year::create($name); }
-
         foreach($this->vins as $vin) { Vin::create($vin); }
+
+        foreach($this->names as $year) { Year::create($year); }
+
+        foreach($this->makes as $make) { Make::create($make); }
     }
 }
