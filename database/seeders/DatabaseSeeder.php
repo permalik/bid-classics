@@ -6,6 +6,7 @@ namespace Database\Seeders;
 use App\Models\Classic;
 use App\Models\Condition;
 use App\Models\Make;
+use App\Models\Sale;
 use App\Models\Vehicle;
 use App\Models\Vin;
 use App\Models\Year;
@@ -636,6 +637,356 @@ class DatabaseSeeder extends Seeder
             'classic_id' => '34',
             'condition_id' => '1',
             'mileage' => '69172'
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '1',
+            'sell_by_date' => date(' 2023-11-07'),
+            'asking_price' => 46937.45,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '2',
+            'sell_by_date' => date(' 2023-11-08'),
+            'asking_price' => 29375.23,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '3',
+            'sell_by_date' => date(' 2023-11-12'),
+            'asking_price' => 83856.27,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '4',
+            'sell_by_date' => date(' 2023-11-18'),
+            'asking_price' => 72462.43,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '5',
+            'sell_by_date' => date(' 2023-11-14'),
+            'asking_price' => 38267.74,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '6',
+            'sell_by_date' => date(' 2023-11-21'),
+            'asking_price' => 37524.28,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '7',
+            'sell_by_date' => date(' 2023-11-08'),
+            'asking_price' => 33464.76,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '8',
+            'sell_by_date' => date(' 2023-11-24'),
+            'asking_price' => 43872.73,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '9',
+            'sell_by_date' => date(' 2023-11-19'),
+            'asking_price' => 50276.35,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '10',
+            'sell_by_date' => date(' 2023-11-30'),
+            'asking_price' => 23937.43,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '11',
+            'sell_by_date' => date(' 2023-11-13'),
+            'asking_price' => 87253.37,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '12',
+            'sell_by_date' => date(' 2023-11-15'),
+            'asking_price' => 25783.58,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '13',
+            'sell_by_date' => date(' 2023-11-23'),
+            'asking_price' => 36927.86,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '14',
+            'sell_by_date' => date(' 2023-11-13'),
+            'asking_price' => 45769.37,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '15',
+            'sell_by_date' => date(' 2023-11-04'),
+            'asking_price' => 83673.25,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '16',
+            'sell_by_date' => date(' 2023-11-03'),
+            'asking_price' => 24845.74,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '17',
+            'sell_by_date' => date(' 2023-11-14'),
+            'asking_price' => 36486.98,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '18',
+            'sell_by_date' => date(' 2023-11-06'),
+            'asking_price' => 34536.25,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '19',
+            'sell_by_date' => date(' 2023-11-26'),
+            'asking_price' => 62846.36,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '20',
+            'sell_by_date' => date('2023-11-12'),
+            'asking_price' => 71234.89,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '21',
+            'sell_by_date' => date('2023-11-25'),
+            'asking_price' => 45123.67,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '22',
+            'sell_by_date' => date('2023-11-14'),
+            'asking_price' => 46937.45,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '23',
+            'sell_by_date' => date('2023-11-10'),
+            'asking_price' => 65243.12,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '24',
+            'sell_by_date' => date('2023-11-20'),
+            'asking_price' => 53128.75,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '25',
+            'sell_by_date' => date('2023-11-05'),
+            'asking_price' => 37982.34,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '26',
+            'sell_by_date' => date('2023-11-18'),
+            'asking_price' => 89271.23,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '27',
+            'sell_by_date' => date('2023-11-01'),
+            'asking_price' => 76832.10,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '28',
+            'sell_by_date' => date('2023-11-27'),
+            'asking_price' => 29534.65,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '29',
+            'sell_by_date' => date('2023-11-16'),
+            'asking_price' => 62394.76,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '30',
+            'sell_by_date' => date('2023-11-09'),
+            'asking_price' => 45872.90,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '31',
+            'sell_by_date' => date('2023-11-30'),
+            'asking_price' => 72618.43,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '32',
+            'sell_by_date' => date('2023-11-22'),
+            'asking_price' => 58092.56,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '33',
+            'sell_by_date' => date('2023-11-03'),
+            'asking_price' => 61938.27,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '34',
+            'sell_by_date' => date('2023-11-29'),
+            'asking_price' => 49823.21,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '35',
+            'sell_by_date' => date('2023-11-26'),
+            'asking_price' => 37982.56,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '36',
+            'sell_by_date' => date('2023-11-08'),
+            'asking_price' => 64729.32,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '37',
+            'sell_by_date' => date('2023-11-07'),
+            'asking_price' => 82913.45,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '38',
+            'sell_by_date' => date('2023-11-23'),
+            'asking_price' => 29538.92,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '39',
+            'sell_by_date' => date('2023-11-15'),
+            'asking_price' => 72613.84,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '40',
+            'sell_by_date' => date('2023-11-13'),
+            'asking_price' => 53498.76,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '41',
+            'sell_by_date' => date('2023-11-11'),
+            'asking_price' => 62391.28,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '42',
+            'sell_by_date' => date('2023-11-21'),
+            'asking_price' => 81923.45,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '43',
+            'sell_by_date' => date('2023-11-02'),
+            'asking_price' => 29534.62,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '44',
+            'sell_by_date' => date('2023-11-17'),
+            'asking_price' => 64728.93,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '45',
+            'sell_by_date' => date('2023-11-24'),
+            'asking_price' => 72615.38,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '46',
+            'sell_by_date' => date('2023-11-06'),
+            'asking_price' => 53497.89,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '47',
+            'sell_by_date' => date('2023-11-04'),
+            'asking_price' => 81924.95,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '48',
+            'sell_by_date' => date('2023-11-28'),
+            'asking_price' => 62395.87,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '49',
+            'sell_by_date' => date('2023-11-19'),
+            'asking_price' => 29536.47,
+            'is_sold' => false
+        ]);
+
+        Sale::create([
+            'vehicle_id' => '50',
+            'sell_by_date' => date('2023-11-03'),
+            'asking_price' => 72619.23,
+            'is_sold' => false
         ]);
 
     }
