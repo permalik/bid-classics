@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Classic;
 use App\Models\Make;
 use App\Models\Vin;
 use App\Models\Year;
@@ -86,7 +87,7 @@ class DatabaseSeeder extends Seeder
         ['name' => '1979']
     ];
 
-    protected array $makes = array(
+    protected array $makes = [
         ['name' => 'Alfa Romeo'],
         ['name' => 'AMC'],
         ['name' => 'Austin-Healey'],
@@ -115,7 +116,60 @@ class DatabaseSeeder extends Seeder
         ['name' => 'Triumph'],
         ['name' => 'Volkswagen'],
         ['name' => 'Volvo']
-    );
+    ];
+
+    protected array $classics = [
+        ['name' => '1800'],
+        ['name' => '1800ti'],
+        ['name' => '230SL'],
+        ['name' => '3000'],
+        ['name' => '442'],
+        ['name' => '500'],
+        ['name' => '911'],
+        ['name' => '99'],
+        ['name' => 'Ambassador'],
+        ['name' => 'Avanti'],
+        ['name' => 'Barracuda'],
+        ['name' => 'Beetle'],
+        ['name' => 'Camaro'],
+        ['name' => 'Challenger'],
+        ['name' => 'Charger'],
+        ['name' => 'Clipper'],
+        ['name' => 'Continental'],
+        ['name' => 'Corvette'],
+        ['name' => 'Cougar'],
+        ['name' => 'Cordoba'],
+        ['name' => 'Cutlass Supreme'],
+        ['name' => 'DeVille'],
+        ['name' => 'E-Type'],
+        ['name' => 'Fleetwood Brougham'],
+        ['name' => 'Giulietta'],
+        ['name' => 'GTO'],
+        ['name' => 'Gremlin'],
+        ['name' => 'Hawk'],
+        ['name' => 'Impala'],
+        ['name' => 'Javelin'],
+        ['name' => 'CJ-5'],
+        ['name' => 'Wagoneer'],
+        ['name' => 'MGB'],
+        ['name' => 'Marquis'],
+        ['name' => 'Midget'],
+        ['name' => 'Mustang Boss 351'],
+        ['name' => 'Newport'],
+        ['name' => 'Polara'],
+        ['name' => 'Rambler'],
+        ['name' => 'Rambler American'],
+        ['name' => 'Rambler Matador'],
+        ['name' => 'Road Runner'],
+        ['name' => 'Riviera'],
+        ['name' => 'Skylark'],
+        ['name' => 'Spitfire'],
+        ['name' => 'Sprite'],
+        ['name' => 'Thunderbird'],
+        ['name' => 'Trans Am'],
+        ['name' => 'TR4A'],
+        ['name' => 'XKE']
+    ];
 
 
     public function run(): void
@@ -125,5 +179,7 @@ class DatabaseSeeder extends Seeder
         foreach($this->names as $year) { Year::create($year); }
 
         foreach($this->makes as $make) { Make::create($make); }
+
+        foreach($this->classics as $classic) { Classic::create($classic); }
     }
 }
