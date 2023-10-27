@@ -1040,6 +1040,5 @@ class DatabaseSeeder extends Seeder
         State::create(['name' => 'West Virginia']);
         State::create(['name' => 'Wisconsin']);
         State::create(['name' => 'Wyoming']);
-
     }
 }

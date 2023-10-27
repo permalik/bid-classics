@@ -6,7 +6,6 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class Sale extends Model
 {
@@ -17,14 +16,14 @@ class Sale extends Model
         return $this->belongsTo(Vehicle::class);
     }
 
-    public function buyer(): HasOne
+    public function buyer(): BelongsTo
     {
-        return $this->hasOne(Buyer::class);
+        return $this->belongsTo(Buyer::class);
     }
 
-    public function seller(): HasOne
+    public function seller(): BelongsTo
     {
-        return $this->hasOne(Seller::class);
+        return $this->belongsTo(Seller::class);
     }
 
     public function bids(): HasMany
