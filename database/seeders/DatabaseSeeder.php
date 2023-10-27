@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use App\Models\Classic;
+use App\Models\Condition;
 use App\Models\Make;
 use App\Models\Vin;
 use App\Models\Year;
@@ -181,5 +182,9 @@ class DatabaseSeeder extends Seeder
         foreach($this->makes as $make) { Make::create($make); }
 
         foreach($this->classics as $classic) { Classic::create($classic); }
+
+        Condition::create(['name' => 'good']);
+        Condition::create(['name' => 'fair']);
+        Condition::create(['name' => 'bad']);
     }
 }
