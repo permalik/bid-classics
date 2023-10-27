@@ -13,16 +13,12 @@ return new class extends Migration
     {
         Schema::create('vehicles', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('vin_id');
             $table->foreignId('year_id');
             $table->foreignId('make_id');
             $table->foreignId('classic_id');
             $table->foreignId('condition_id');
-            $table->foreignId('vin_id');
-            $table->foreignId('sale_id');
             $table->integer('mileage');
-            $table->integer('price');
-            $table->string('vin', 17)->unique();
-            $table->date('sell_by_date');
             $table->timestamps();
         });
     }

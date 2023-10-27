@@ -6,6 +6,7 @@ namespace Database\Seeders;
 use App\Models\Classic;
 use App\Models\Condition;
 use App\Models\Make;
+use App\Models\Vehicle;
 use App\Models\Vin;
 use App\Models\Year;
 use Illuminate\Database\Seeder;
@@ -186,5 +187,13 @@ class DatabaseSeeder extends Seeder
         Condition::create(['name' => 'good']);
         Condition::create(['name' => 'fair']);
         Condition::create(['name' => 'bad']);
+
+//        Vehicle::create([
+//            'vin_id' => '1',
+//            'year_id' => '1',
+//            'make_id' => '7',
+//            'condition_id' => '3',
+//            ''
+//        ]);
     }
 }
