@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('sales', function (Blueprint $table) {
             $table->id();
             $table->foreignId('vehicle_id');
-            $table->foreignId('seller_id')->nullable();
+            $table->foreignId('seller_id');
             $table->foreignId('buyer_id')->nullable();
             $table->date('sell_by_date');
             $table->decimal('asking_price');

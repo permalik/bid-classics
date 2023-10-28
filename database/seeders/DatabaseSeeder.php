@@ -68,7 +68,7 @@ class DatabaseSeeder extends Seeder
         ['identifier' => 'L7M0N2P4Q9R1S3T68'],
     ];
 
-    protected array $names = [
+    protected array $years = [
         ['name' => '1960'],
         ['name' => '1961'],
         ['name' => '1962'],
@@ -180,7 +180,7 @@ class DatabaseSeeder extends Seeder
     {
         foreach($this->vins as $vin) { Vin::create($vin); }
 
-        foreach($this->names as $year) { Year::create($year); }
+        foreach($this->years as $year) { Year::create($year); }
 
         foreach($this->makes as $make) { Make::create($make); }
 
