@@ -45,11 +45,11 @@ defineProps({
                 </span>
             </p>
         </section>
-        <div v-if="canLogin">
+        <section class="cta-section" v-if="canLogin">
             <Link
                 v-if="$page.props.auth.user"
                 :href="route('dashboard')"
-                class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500"
+                class="auth-link"
             >Dashboard
             </Link
             >
@@ -57,7 +57,7 @@ defineProps({
             <template v-else>
                 <Link
                     :href="route('login')"
-                    class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500"
+                    class="auth-link left-auth-link"
                 >Log in
                 </Link
                 >
@@ -65,12 +65,12 @@ defineProps({
                 <Link
                     v-if="canRegister"
                     :href="route('register')"
-                    class="ml-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500"
+                    class="auth-link"
                 >Register
                 </Link
                 >
             </template>
-        </div>
+        </section>
         <img src="/images/mustang-gt500.png" alt="Mustang GT500">
     </main>
 </template>
@@ -101,6 +101,25 @@ p {
 
 p > span {
     display: table;
+}
+
+.cta-section {
+    margin: 2rem 0 0;
+}
+
+.auth-link {
+    padding: .25rem .75rem;
+
+    font-size: clamp(0.95rem, 3vw, 1.125rem);
+    font-weight: 600;
+    color: var(--primary-accent);
+    border: 2px solid var(--primary-accent);
+    border-radius: 5px;
+    opacity: .8;
+}
+
+.left-auth-link {
+    margin: 0 clamp(1.25rem, 3vw, 1.5rem) 0 0;
 }
 
 img {
