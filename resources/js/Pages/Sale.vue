@@ -23,7 +23,7 @@ defineProps({
         {{ classic }}
     </span>
     </h1>
-    <img :src="'/images/' + image" alt="asdf">
+    <img :src="'/images/' + image" alt="Auctioned Vehicle">
     <section>
         <p>
             <span>
