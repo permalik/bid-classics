@@ -42,4 +42,8 @@ Route::get('/sales', [SalesController::class, 'allSales']);
 
 Route::get('sale/{sale}', [SaleController::class, 'oneSale']);
 
+Route::fallback(function () {
+    return Inertia::render('404');
+});
+
 require __DIR__.'/auth.php';
