@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --primary-dark: #1F1F1F;
+    --primary-light: #EFEFEF;
+    --primary-accent: #FBE5A2;
+}
+
+body {
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
+}
