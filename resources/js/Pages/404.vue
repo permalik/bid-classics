@@ -83,9 +83,8 @@ p > span {
 }
 
 img {
+    min-width: 100%;
+
     rotate: 90deg;
-
-    object-fit: cover;
-
 }
 </style>
