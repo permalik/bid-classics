@@ -6,6 +6,9 @@
     --primary-dark: #1F1F1F;
     --primary-light: #EFEFEF;
     --primary-accent: #FBE5A2;
+    --secondary-accent: #0d6b8a;
+    --secondary-accent-700: #055570;
+    --secondary-accent-900: #023d50;
 }
 
 body {

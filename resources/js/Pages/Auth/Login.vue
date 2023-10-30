@@ -72,7 +72,7 @@ const submit = () => {
             <div class="block mt-4">
                 <label class="flex items-center">
                     <Checkbox name="remember" v-model:checked="form.remember" />
-                    <span class="ml-2 text-sm text-gray-600">Remember me</span>
+                    <span class="rememberme">Remember me</span>
                 </label>
             </div>
 
@@ -80,15 +80,43 @@ const submit = () => {
                 <Link
                     v-if="canResetPassword"
                     :href="route('password.request')"
-                    class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    class="forgotpassword"
                 >
                     Forgot your password?
                 </Link>
 
-                <PrimaryButton class="ml-4" :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
+                <PrimaryButton :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
                     Log in
                 </PrimaryButton>
             </div>
         </form>
     </GuestLayout>
 </template>
+
+<style scoped>
+.rememberme {
+    margin: 0 0 0 .25rem;
+
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--primary-light);
+    opacity: .75;
+}
+
+.forgotpassword {
+    font-size: .8rem;
+    text-decoration: underline;
+    border-radius: 5px;
+    color: var(--primary-light);
+    opacity: .65;
+}
+
+.forgotpassword:hover {
+    opacity: .85;
+}
+
+.forgotpassword:focus {
+    opacity: .85;
+    outline: 1px solid var(--primary-accent);
+}
+</style>
