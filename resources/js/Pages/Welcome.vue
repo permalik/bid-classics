@@ -1,5 +1,6 @@
 <script setup>
 import {Head, Link} from '@inertiajs/vue3';
+import Header from "@/Components/Header.vue";
 
 defineProps({
     canLogin: {
@@ -21,7 +22,8 @@ defineProps({
 
 <template>
     <Head title="Home"/>
-    <div v-if="canLogin" class="sm:fixed sm:top-0 sm:right-0 p-6 text-right">
+    <Header/>
+    <div v-if="canLogin">
         <Link
             v-if="$page.props.auth.user"
             :href="route('dashboard')"
