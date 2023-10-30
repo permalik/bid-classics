@@ -42,6 +42,10 @@ Route::get('/sales', [SalesController::class, 'allSales']);
 
 Route::get('sale/{sale}', [SaleController::class, 'oneSale']);
 
+Route::get('seller', function () {
+    return Inertia::render('Seller');
+});
+
 Route::fallback(function () {
     return Inertia::render('404');
 });
