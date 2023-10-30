@@ -2,9 +2,21 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Models\Sale;
+use Inertia\Inertia;
 
 class SaleController extends Controller
 {
-    //
+    public function oneSale(Sale $sale)
+    {
+        return Inertia::render('Sale', [
+            'year' => $sale->vehicle->year->name,
+            'make' => $sale->vehicle->make->name,
+            'classic' => $sale->vehicle->classic->name,
+            'mileage' => $sale->vehicle->mileage,
+            'vin' => $sale->vehicle->vin->identifier,
+            'askingPrice' => $sale->asking_price,
+            'sellByDate' => $sale->sell_by_date,
+        ]);
+    }
 }
