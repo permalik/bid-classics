@@ -1,4 +1,6 @@
 <script setup>
+import Header from "@/Components/Header.vue";
+
 defineProps({
     year: String,
     make: String,
@@ -8,54 +10,121 @@ defineProps({
     askingPrice: Number,
     sellByDate: Date,
     image: String,
+    sellerLastName: String,
+    sellerFirstName: String,
 })
 </script>
 
 <template>
-    <h1>
-    <span>
-        {{ year }}
-    </span>
-        <span>
-        {{ make }}
-    </span>
-        <span>
-        {{ classic }}
-    </span>
-    </h1>
-    <img :src="'/images/' + image" alt="Auctioned Vehicle">
-    <section>
-        <p>
+    <Header/>
+    <main>
+        <div class="wrapper">
+            <h1>
             <span>
-                Mileage:
+                {{ year }}
             </span>
-            <span>
-                {{ mileage }}
-            </span>
-        </p>
-        <p>
-            <span>
-                VIN:
-            </span>
-            <span>
-                {{ vin }}
-            </span>
-        </p>
-        <p>
-            <span>
-                Asking Price:
-            </span>
-            <span>
-                ${{ askingPrice }}
-            </span>
-        </p>
-        <p>
-            <span>
-                Sell By Date:
-            </span>
-            <span>
-                {{ sellByDate }}
-            </span>
-        </p>
-    </section>
+                <div>
+                <span>
+                    {{ make }}
+                </span>
+                    <span>
+                    {{ classic }}
+                </span>
+                </div>
+            </h1>
+            <img :src="'/images/' + image" alt="Auctioned Vehicle">
+            <section class="content-section">
+                <p>
+                    <span>
+                        Mileage:
+                    </span>
+                    <span>
+                        {{ mileage }}
+                    </span>
+                </p>
+                <p>
+                    <span>
+                        VIN:
+                    </span>
+                    <span>
+                        {{ vin }}
+                    </span>
+                </p>
+                <p>
+                    <span>
+                        Asking Price:
+                    </span>
+                    <span>
+                        ${{ askingPrice }}
+                    </span>
+                </p>
+                <p>
+                    <span>
+                        Sell By Date:
+                    </span>
+                    <span>
+                        {{ sellByDate }}
+                    </span>
+                </p>
+                <p>
+                    <span>
+                        Vendor:
+                    </span>
+                    <span>
+                        {{ sellerFirstName }} {{ sellerLastName }}
+                    </span>
+                </p>
+            </section>
+        </div>
+    </main>
 </template>
+
+<style scoped>
+main {
+    min-height: 100vh;
+    margin: 5rem 0;
+    padding: 0 .5rem;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.wrapper {
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 0 1rem 0;
+
+    display: flex;
+    flex-flow: column nowrap;
+
+    font-weight: 700;
+}
+
+h1 > div > span:first-child {
+    margin: 0 0.25rem 0 0;
+}
+
+img {
+    width: 100%;
+    max-width: 25rem;
+
+    border-radius: 5px;
+}
+
+.content-section {
+    width: 100%;
+    max-width: 25rem;
+    margin: 1.5rem 0 0;
+
+    font-size: 0.85rem;
+}
+
+.content-section > p {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+</style>

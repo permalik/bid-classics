@@ -56,7 +56,7 @@ main {
 section {
     width: 100%;
     max-width: 40rem;
-    margin: 2rem 0;
+    margin: 5rem 0;
     padding: 0 0.5rem;
 }
 

@@ -19,6 +19,8 @@ class SaleController extends Controller
             'askingPrice' => $sale->asking_price,
             'sellByDate' => $sale->sell_by_date,
             'image' => $sale->vehicle->image,
+            'sellerLastName' => $sale->seller->last_name,
+            'sellerFirstName' => $sale->seller->first_name,
         ]);
     }
 }
