@@ -11,17 +11,18 @@ defineProps({
 </script>
 
 <template>
-<h1>
+    <h1>
     <span>
         {{ year }}
     </span>
-    <span>
+        <span>
         {{ make }}
     </span>
-    <span>
+        <span>
         {{ classic }}
     </span>
-</h1>
+    </h1>
+    <img src="../../../public/assets/1960.chevrolet.impala.jpeg" alt="asdf">
     <section>
         <p>
             <span>

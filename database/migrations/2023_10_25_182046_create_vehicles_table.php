@@ -19,6 +19,7 @@ return new class extends Migration
             $table->foreignId('classic_id');
             $table->foreignId('condition_id');
             $table->integer('mileage');
+            $table->string('image');
             $table->timestamps();
         });
     }
