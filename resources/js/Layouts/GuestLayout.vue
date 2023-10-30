@@ -1,20 +1,41 @@
 <script setup>
 import ApplicationLogo from '@/Components/ApplicationLogo.vue';
-import { Link } from '@inertiajs/vue3';
+import {Link} from '@inertiajs/vue3';
 </script>
 
 <template>
-    <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100">
+    <section class="guest-section">
         <div>
             <Link href="/">
-                <ApplicationLogo class="w-20 h-20 fill-current text-gray-500" />
+                <ApplicationLogo/>
             </Link>
         </div>
-
-        <div
-            class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg"
-        >
-            <slot />
+        <div class=".form-container">
+            <slot/>
         </div>
-    </div>
+    </section>
 </template>
+
+<style scoped>
+.guest-section {
+    min-height: 100vh;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    width: 100%;
+    padding: 0 1.5rem;
+
+    overflow: hidden;
+}
+
+@media (min-width: 640px) {
+    .form-container {
+        max-width: 28rem;
+    }
+}
+</style>
