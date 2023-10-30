@@ -86,7 +86,7 @@ const maxWidthClass = computed(() => {
                 >
                     <div
                         v-show="show"
-                        class="mb-6 bg-white rounded-lg overflow-hidden shadow-xl transform transition-all sm:w-full sm:mx-auto"
+                        class="modal mb-6 rounded-lg overflow-hidden shadow-xl transform transition-all sm:w-full sm:mx-auto"
                         :class="maxWidthClass"
                     >
                         <slot v-if="show" />
@@ -96,3 +96,9 @@ const maxWidthClass = computed(() => {
         </Transition>
     </Teleport>
 </template>
+
+<style scoped>
+.modal {
+    background-color: var(--primary-dark);
+}
+</style>

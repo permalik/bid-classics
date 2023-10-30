@@ -24,7 +24,7 @@ const form = useForm({
 
 <template>
     <section>
-        <header>
+        <header class="edit-profile-header">
             <h2 class="text-lg font-medium text-gray-900">Profile Information</h2>
 
             <p class="mt-1 text-sm text-gray-600">
@@ -100,3 +100,14 @@ const form = useForm({
         </form>
     </section>
 </template>
+
+<style scoped>
+.edit-profile-header > h2 {
+    color: var(--primary-light);
+}
+
+.edit-profile-header > p {
+    color: var(--primary-light);
+    opacity: 0.85;
+}
+</style>

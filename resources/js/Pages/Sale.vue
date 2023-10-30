@@ -75,7 +75,7 @@ defineProps({
                     </span>
                 </p>
             </section>
-            <button>
+            <button type="button">
                 Place Bid
             </button>
         </div>
