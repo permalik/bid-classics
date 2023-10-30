@@ -89,7 +89,7 @@ const submit = () => {
             <div class="flex items-center justify-end mt-4">
                 <Link
                     :href="route('login')"
-                    class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    class="alreadyregistered"
                 >
                     Already registered?
                 </Link>
@@ -101,3 +101,22 @@ const submit = () => {
         </form>
     </GuestLayout>
 </template>
+
+<style scoped>
+.alreadyregistered {
+font-size: .8rem;
+text-decoration: underline;
+border-radius: 5px;
+color: var(--primary-light);
+opacity: .65;
+}
+
+.alreadyregistered:hover {
+opacity: .85;
+}
+
+.alreadyregistered:focus {
+opacity: .85;
+outline: 1px solid var(--primary-accent);
+}
+</style>
