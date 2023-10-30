@@ -95,7 +95,7 @@ h1 > span {
 
 p {
     opacity: .8;
-    font-size: clamp(0.95rem, 3vw, 1.5rem);
+    font-size: clamp(0.95rem, 3vw, 1.25rem);
     font-weight: 600;
 }
 
@@ -104,7 +104,7 @@ p > span {
 }
 
 .cta-section {
-    margin: 2rem 0 0;
+    margin: clamp(1.5rem, 3vw, 2rem) 0 0;
 }
 
 .auth-link {
@@ -115,7 +115,21 @@ p > span {
     color: var(--primary-accent);
     border: 2px solid var(--primary-accent);
     border-radius: 5px;
-    opacity: .8;
+    opacity: .85;
+}
+
+.auth-link:hover {
+    background-color: var(--primary-accent);
+    color: var(--primary-dark);
+    opacity: 1;
+}
+
+.auth-link:focus {
+    outline: 1px solid var(--primary-accent);
+}
+
+.auth-link:active {
+    opacity: .65;
 }
 
 .left-auth-link {
