@@ -75,6 +75,9 @@ defineProps({
                     </span>
                 </p>
             </section>
+            <button>
+                Place Bid
+            </button>
         </div>
     </main>
 </template>
@@ -126,5 +129,34 @@ img {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+}
+
+button {
+    position: relative;
+    left: 50%;
+
+    margin: 2rem 0;
+    padding: 0.25rem 1rem;
+
+    font-weight: 600;
+    color: var(--tertiary-accent);
+    border: 2px solid var(--tertiary-accent);
+    border-radius: 5px;
+
+    transform: translateX(-50%);
+    transition: color, background-color 250ms ease-in-out;
+}
+
+button:hover {
+    color: var(--primary-dark);
+    background-color: var(--tertiary-accent);
+}
+
+button:focus {
+    outline: 2px solid var(--primary-accent);
+}
+
+button:active {
+    opacity: 0.85;
 }
 </style>
