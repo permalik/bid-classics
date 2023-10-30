@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SalesController;
+use App\Models\Sale;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -37,5 +38,11 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::get('/sales', [SalesController::class, 'allSales']);
+
+Route::get('/sale/{sale}', function (Sale $sale) {
+    return Inertia::render('Sale', [
+        'askingPrice' => $sale->asking_price
+    ]);
+});
 
 require __DIR__.'/auth.php';
