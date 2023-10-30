@@ -7,6 +7,7 @@ defineProps({
     vin: String,
     askingPrice: Number,
     sellByDate: Date,
+    image: String,
 })
 </script>
 
@@ -22,7 +23,7 @@ defineProps({
         {{ classic }}
     </span>
     </h1>
-    <img src="../../../public/assets/1960.chevrolet.impala.jpeg" alt="asdf">
+    <img :src="'/images/' + image" alt="asdf">
     <section>
         <p>
             <span>

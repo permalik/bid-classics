@@ -197,7 +197,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '7',
             'classic_id' => '29',
             'condition_id' => '3',
-            'mileage' => '135902'
+            'mileage' => '135902',
+            'image' => '1960.chevrolet.impala.jpeg',
         ]);
 
         Vehicle::create([
@@ -206,7 +207,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '3',
             'classic_id' => '4',
             'condition_id' => '3',
-            'mileage' => '82753'
+            'mileage' => '82753',
+            'image' => '1960.austin_healey.3000.jpeg',
         ]);
 
         Vehicle::create([
@@ -215,7 +217,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '20',
             'classic_id' => '28',
             'condition_id' => '1',
-            'mileage' => '67593'
+            'mileage' => '67593',
+            'image' => '1960.packard.hawk.png',
         ]);
 
         Vehicle::create([
@@ -224,7 +227,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '11',
             'classic_id' => '47',
             'condition_id' => '2',
-            'mileage' => '198364'
+            'mileage' => '198364',
+            'image' => '1961.ford.thunderbird.jpeg',
         ]);
 
         Vehicle::create([
@@ -233,7 +237,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '12',
             'classic_id' => '23',
             'condition_id' => '1',
-            'mileage' => '93827'
+            'mileage' => '93827',
+            'image' => '1961.jaguar.etype.jpeg',
         ]);
 
         Vehicle::create([
@@ -242,7 +247,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '7',
             'classic_id' => '18',
             'condition_id' => '3',
-            'mileage' => '57293'
+            'mileage' => '57293',
+            'image' => '1961.chevrolet.corvette.jpeg',
         ]);
 
         Vehicle::create([
@@ -251,7 +257,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '5',
             'classic_id' => '44',
             'condition_id' => '2',
-            'mileage' => '14835'
+            'mileage' => '14835',
+            'image' => '1962.buick.skylark.jpeg',
         ]);
 
         Vehicle::create([
@@ -260,7 +267,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '1',
             'classic_id' => '25',
             'condition_id' => '1',
-            'mileage' => '239418'
+            'mileage' => '239418',
+            'image' => '1962.alfa_romeo.giulietta.jpeg',
         ]);
 
         Vehicle::create([
@@ -269,7 +277,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '18',
             'classic_id' => '39',
             'condition_id' => '3',
-            'mileage' => '93284'
+            'mileage' => '93284',
+            'image' => '1962.nash.rambler.jpeg',
         ]);
 
         Vehicle::create([
@@ -278,7 +287,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '9',
             'classic_id' => '38',
             'condition_id' => '2',
-            'mileage' => '183627'
+            'mileage' => '183627',
+            'image' => '1963.dodge.polara.jpeg',
         ]);
 
         Vehicle::create([
@@ -287,7 +297,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '10',
             'classic_id' => '6',
             'condition_id' => '1',
-            'mileage' => '72834'
+            'mileage' => '72834',
+            'image' => '1963.fiat.500.jpeg',
         ]);
 
         Vehicle::create([
@@ -296,7 +307,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '13',
             'classic_id' => '32',
             'condition_id' => '3',
-            'mileage' => '51934'
+            'mileage' => '51934',
+            'image' => '1963.willys.jeep.wagoneer.jpeg',
         ]);
 
         Vehicle::create([
@@ -305,7 +317,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '21',
             'classic_id' => '11',
             'condition_id' => '2',
-            'mileage' => '76342'
+            'mileage' => '76342',
+            'image' => '1964.plymouth.barracuda.jpeg',
         ]);
 
         Vehicle::create([
@@ -314,7 +327,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '16',
             'classic_id' => '3',
             'condition_id' => '1',
-            'mileage' => '124863'
+            'mileage' => '124863',
+            'image' => '1964.mercedes_benz.230sl.jpeg',
         ]);
 
         Vehicle::create([
@@ -323,7 +337,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '2',
             'classic_id' => '40',
             'condition_id' => '3',
-            'mileage' => '61327'
+            'mileage' => '61327',
+            'image' => '1964.rambler.american.jpeg',
         ]);
 
         Vehicle::create([
@@ -332,7 +347,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '6',
             'classic_id' => '22',
             'condition_id' => '2',
-            'mileage' => '28947'
+            'mileage' => '28947',
+            'image' => '1965.cadillac.deville.jpg',
         ]);
 
         Vehicle::create([
@@ -341,7 +357,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '4',
             'classic_id' => '2',
             'condition_id' => '1',
-            'mileage' => '92384'
+            'mileage' => '92384',
+            'image' => '1965.bmw.1800ti.jpeg',
         ]);
 
         Vehicle::create([
@@ -350,7 +367,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '2',
             'classic_id' => '9',
             'condition_id' => '3',
-            'mileage' => '78932'
+            'mileage' => '78932',
+            'image' => '1965.amc.ambassador.jpeg',
         ]);
 
         Vehicle::create([
@@ -359,7 +377,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '22',
             'classic_id' => '26',
             'condition_id' => '2',
-            'mileage' => '52134'
+            'mileage' => '52134',
+            'image' => '1966.pontiac.gto.jpeg',
         ]);
 
         Vehicle::create([
@@ -368,7 +387,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '23',
             'classic_id' => '7',
             'condition_id' => '1',
-            'mileage' => '18374'
+            'mileage' => '18374',
+            'image' => '1966.porche.911.jpeg',
         ]);
 
         Vehicle::create([
@@ -377,7 +397,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '15',
             'classic_id' => '35',
             'condition_id' => '3',
-            'mileage' => '217483'
+            'mileage' => '217483',
+            'image' => '1966.mg.midget.jpeg',
         ]);
 
         Vehicle::create([
@@ -386,7 +407,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '19',
             'classic_id' => '5',
             'condition_id' => '2',
-            'mileage' => '92834'
+            'mileage' => '92834',
+            'image' => '1967.oldsmobile.442.jpeg',
         ]);
 
         Vehicle::create([
@@ -395,7 +417,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '27',
             'classic_id' => '12',
             'condition_id' => '1',
-            'mileage' => '62834'
+            'mileage' => '62834',
+            'image' => '1967.volkswagon.beetle.jpeg',
         ]);
 
         Vehicle::create([
@@ -404,7 +427,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '26',
             'classic_id' => '49',
             'condition_id' => '3',
-            'mileage' => '48192'
+            'mileage' => '48192',
+            'image' => '1967.triumph.tr4a.jpeg',
         ]);
 
         Vehicle::create([
@@ -413,7 +437,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '8',
             'classic_id' => '37',
             'condition_id' => '2',
-            'mileage' => '14853'
+            'mileage' => '14853',
+            'image' => '1968.chrysler.newport.jpeg',
         ]);
 
         Vehicle::create([
@@ -422,7 +447,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '28',
             'classic_id' => '1',
             'condition_id' => '1',
-            'mileage' => '109384'
+            'mileage' => '109384',
+            'image' => '1968.volvo.1800.jpeg',
         ]);
 
         Vehicle::create([
@@ -431,7 +457,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '3',
             'classic_id' => '46',
             'condition_id' => '3',
-            'mileage' => '72834'
+            'mileage' => '72834',
+            'image' => '1968.austin_healey.sprite.jpeg',
         ]);
 
         Vehicle::create([
@@ -440,7 +467,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '17',
             'classic_id' => '19',
             'condition_id' => '2',
-            'mileage' => '43928'
+            'mileage' => '43928',
+            'image' => '1969.mercury.cougar.jpeg',
         ]);
 
         Vehicle::create([
@@ -449,7 +477,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '24',
             'classic_id' => '8',
             'condition_id' => '1',
-            'mileage' => '29834'
+            'mileage' => '29834',
+            'image' => '1969.saab.99.jpeg',
         ]);
 
         Vehicle::create([
@@ -458,7 +487,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '12',
             'classic_id' => '50',
             'condition_id' => '3',
-            'mileage' => '69172'
+            'mileage' => '69172',
+            'image' => '1969.jaguar.xke.jpeg',
         ]);
 
         Vehicle::create([
@@ -467,7 +497,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '14',
             'classic_id' => '17',
             'condition_id' => '2',
-            'mileage' => '83927'
+            'mileage' => '83927',
+            'image' => '1970.lincoln.continental.jpeg',
         ]);
 
         Vehicle::create([
@@ -476,7 +507,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '7',
             'classic_id' => '13',
             'condition_id' => '1',
-            'mileage' => '54239'
+            'mileage' => '54239',
+            'image' => '1970.chevrolet.camaro.jpeg',
         ]);
 
         Vehicle::create([
@@ -485,7 +517,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '25',
             'classic_id' => '10',
             'condition_id' => '3',
-            'mileage' => '79283'
+            'mileage' => '79283',
+            'image' => '1971.studebaker.avanti.jpeg',
         ]);
 
         Vehicle::create([
@@ -494,7 +527,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '11',
             'classic_id' => '36',
             'condition_id' => '2',
-            'mileage' => '34872'
+            'mileage' => '34872',
+            'image' => '1971.ford.mustang.boss_351.jpeg',
         ]);
 
         Vehicle::create([
@@ -503,7 +537,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '20',
             'classic_id' => '16',
             'condition_id' => '1',
-            'mileage' => '42837'
+            'mileage' => '42837',
+            'image' => '1972.ford.maverick.jpeg',
         ]);
 
         Vehicle::create([
@@ -512,7 +547,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '5',
             'classic_id' => '43',
             'condition_id' => '3',
-            'mileage' => '92384'
+            'mileage' => '92384',
+            'image' => '1972.buick.riviera.jpeg',
         ]);
 
         Vehicle::create([
@@ -521,7 +557,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '2',
             'classic_id' => '30',
             'condition_id' => '2',
-            'mileage' => '58234'
+            'mileage' => '58234',
+            'image' => '1973.amc.javelin.jpeg',
         ]);
 
         Vehicle::create([
@@ -530,7 +567,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '9',
             'classic_id' => '15',
             'condition_id' => '1',
-            'mileage' => '28734'
+            'mileage' => '28734',
+            'image' => '1973.dodge.charger.jpeg',
         ]);
 
         Vehicle::create([
@@ -539,7 +577,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '9',
             'classic_id' => '14',
             'condition_id' => '3',
-            'mileage' => '34892'
+            'mileage' => '34892',
+            'image' => '1974.dodge.challenger.jpeg',
         ]);
 
         Vehicle::create([
@@ -548,7 +587,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '21',
             'classic_id' => '42',
             'condition_id' => '2',
-            'mileage' => '18293'
+            'mileage' => '18293',
+            'image' => '1974.plymouth.roadrunner.jpeg',
         ]);
 
         Vehicle::create([
@@ -557,7 +597,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '13',
             'classic_id' => '31',
             'condition_id' => '1',
-            'mileage' => '23948'
+            'mileage' => '23948',
+            'image' => '1975.jeep.cj5.jpeg',
         ]);
 
         Vehicle::create([
@@ -566,7 +607,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '6',
             'classic_id' => '24',
             'condition_id' => '3',
-            'mileage' => '47182'
+            'mileage' => '47182',
+            'image' => '1975.cadillac.fleetwood.brougham.jpeg',
         ]);
 
         Vehicle::create([
@@ -575,7 +617,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '2',
             'classic_id' => '41',
             'condition_id' => '2',
-            'mileage' => '92374'
+            'mileage' => '92374',
+            'image' => '1976.amc.rambler.matador.jpeg',
         ]);
 
         Vehicle::create([
@@ -584,7 +627,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '22',
             'classic_id' => '48',
             'condition_id' => '1',
-            'mileage' => '28374'
+            'mileage' => '28374',
+            'image' => '1976.pontiac.transam.jpeg',
         ]);
 
         Vehicle::create([
@@ -593,7 +637,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '2',
             'classic_id' => '27',
             'condition_id' => '3',
-            'mileage' => '49281'
+            'mileage' => '49281',
+            'image' => '1977.amc.gremlin.jpeg',
         ]);
 
         Vehicle::create([
@@ -602,7 +647,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '19',
             'classic_id' => '21',
             'condition_id' => '2',
-            'mileage' => '14853'
+            'mileage' => '14853',
+            'image' => '1977.oldsmobile.cutlass.supreme.jpeg',
         ]);
 
         Vehicle::create([
@@ -611,7 +657,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '15',
             'classic_id' => '33',
             'condition_id' => '1',
-            'mileage' => '128374'
+            'mileage' => '128374',
+            'image' => '1978.mg.mgb.jpeg',
         ]);
 
         Vehicle::create([
@@ -620,7 +667,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '8',
             'classic_id' => '20',
             'condition_id' => '3',
-            'mileage' => '72834'
+            'mileage' => '72834',
+            'image' => '1978.chrystler.cordoba.jpeg',
         ]);
 
         Vehicle::create([
@@ -629,7 +677,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '26',
             'classic_id' => '45',
             'condition_id' => '2',
-            'mileage' => '43928'
+            'mileage' => '43928',
+            'image' => '1979.triumph.spitfire.jpeg',
         ]);
 
         Vehicle::create([
@@ -638,7 +687,8 @@ class DatabaseSeeder extends Seeder
             'make_id' => '17',
             'classic_id' => '34',
             'condition_id' => '1',
-            'mileage' => '69172'
+            'mileage' => '69172',
+            'image' => '1979.dodge.magnum.jpeg',
         ]);
 
         Username::create(['name' => 'MariaRodriguez739']);

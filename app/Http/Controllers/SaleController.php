@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Sale;
+use App\Models\Vehicle;
 use Inertia\Inertia;
 
 class SaleController extends Controller
@@ -17,6 +18,7 @@ class SaleController extends Controller
             'vin' => $sale->vehicle->vin->identifier,
             'askingPrice' => $sale->asking_price,
             'sellByDate' => $sale->sell_by_date,
+            'image' => $sale->vehicle->image,
         ]);
     }
 }
