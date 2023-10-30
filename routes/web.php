@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SaleController;
 use App\Http\Controllers\SalesController;
+use App\Http\Controllers\SellerController;
 use App\Models\Sale;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -42,9 +43,7 @@ Route::get('/sales', [SalesController::class, 'allSales']);
 
 Route::get('sale/{sale}', [SaleController::class, 'oneSale']);
 
-Route::get('seller', function () {
-    return Inertia::render('Seller');
-});
+Route::get('seller', [SellerController::class, 'seller']);
 
 Route::fallback(function () {
     return Inertia::render('404');
