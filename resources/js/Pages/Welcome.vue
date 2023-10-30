@@ -71,11 +71,14 @@ defineProps({
                 >
             </template>
         </div>
+        <img src="/images/mustang-gt500.png" alt="Mustang GT500">
     </main>
 </template>
 
 <style scoped>
 main {
+    position: relative;
+
     margin: clamp(5rem, 15vw, 20rem) 0 0 clamp(.125rem, 5vw, 15rem);
 
     display: flex;
@@ -98,5 +101,20 @@ p {
 
 p > span {
     display: table;
+}
+
+img {
+    position: fixed;
+    right: 0;
+    bottom: -100px;
+
+    width: 75%;
+    max-width: 800px;
+    margin: 0 0 12rem 0;
+}
+@media (min-width: 800px) {
+    img {
+        margin: 0;
+    }
 }
 </style>
