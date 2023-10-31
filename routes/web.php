@@ -39,7 +39,9 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::get('/vehicles', [VehiclesController::class, 'allVehicles']);
+Route::get(
+    '/vehicles', [VehiclesController::class, 'allVehicles']
+)->middleware(['auth', 'verified'])->name('vehicles');
 
 Route::get('vehicle/{vehicle}', [VehicleController::class, 'oneVehicle']);
 
