@@ -3,6 +3,7 @@ import {ref} from 'vue';
 import Dropdown from '@/Components/Dropdown.vue';
 import DropdownLink from '@/Components/DropdownLink.vue';
 import ResponsiveNavLink from '@/Components/ResponsiveNavLink.vue';
+import {Link} from '@inertiajs/vue3';
 
 const showingNavigationDropdown = ref(false);
 </script>
@@ -13,10 +14,12 @@ const showingNavigationDropdown = ref(false);
             <div>
                 <!-- Primary Navigation Menu -->
                 <nav class="nav-container">
-                    <div class="logo-container">
-                        <img src="/images/logo.svg" alt="Steering wheel logo">
-                        <p>Bid Classics</p>
-                    </div>
+                    <Link href="/">
+                        <span class="logo-container">
+                            <img src="/images/logo.svg" alt="Steering wheel logo">
+                            <span>Bid Classics</span>
+                        </span>
+                    </Link>
 
                     <div class="hidden sm:flex sm:items-center sm:ml-6">
                         <!-- Settings Dropdown -->
@@ -146,7 +149,7 @@ const showingNavigationDropdown = ref(false);
     margin: 0 0.25rem 0 0;
 }
 
-.logo-container > p {
+.logo-container > span {
     font-family: 'Lobster', sans-serif;
     font-size: 1.25rem;
 }
