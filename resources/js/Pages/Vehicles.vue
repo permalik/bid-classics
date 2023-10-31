@@ -1,6 +1,8 @@
 <script setup>
 import {Link} from '@inertiajs/vue3';
 import Header from "@/Components/Header.vue";
+import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout.vue";
+import {Head} from '@inertiajs/vue3';
 defineProps({
     vehicles: Array,
     id: Number,
@@ -12,38 +14,40 @@ defineProps({
 </script>
 
 <template>
-    <Header />
-    <main>
-        <section>
-            <h1>
-                All Vehicles
-            </h1>
-            <ul>
-                <li v-for="vehicle of vehicles" class="vehicle-item">
-                    <Link :href="'/vehicle/' + vehicle.id" class="vehicle-link">
+    <Head title="Vehicles"/>
+    <AuthenticatedLayout>
+        <div class="wrapper">
+            <section>
+                <h1>
+                    All Vehicles
+                </h1>
+                <ul>
+                    <li v-for="vehicle of vehicles" class="vehicle-item">
+                        <Link :href="'/vehicle/' + vehicle.id" class="vehicle-link">
                         <span class="vehicle-price">
                             ${{ vehicle.price }}
                         </span>
-                        <div class="vehicle-name">
+                            <div class="vehicle-name">
                             <span>
                                 {{ vehicle.year.name }}
                             </span>
-                            <span>
+                                <span>
                                 {{ vehicle.make.name }}
                             </span>
-                            <span>
+                                <span>
                                 {{ vehicle.classic.name }}
                             </span>
-                        </div>
-                    </Link>
-                </li>
-            </ul>
-        </section>
-    </main>
+                            </div>
+                        </Link>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </AuthenticatedLayout>
 </template>
 
 <style scoped>
-main {
+.wrapper {
     min-height: 100vh;
 
     display: flex;
