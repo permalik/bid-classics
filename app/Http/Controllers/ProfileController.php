@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ProfileUpdateRequest;
+use App\Models\Vehicle;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -50,6 +51,16 @@ class ProfileController extends Controller
         ]);
 
         $user = $request->user();
+
+        $allVehicles = Vehicle::all();
+
+        foreach ($allVehicles as $vehicle) {
+            if ($vehicle->is_sold && $vehicle->user_id == $user->id) {
+                $vehicle->is_sold = false;
+                $vehicle->user_id = null;
+                $vehicle->save();
+            }
+        }
 
         Auth::logout();
 
