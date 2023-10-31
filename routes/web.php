@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BidController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SaleController;
 use App\Http\Controllers\SalesController;
@@ -44,6 +45,8 @@ Route::get('/sales', [SalesController::class, 'allSales']);
 Route::get('sale/{sale}', [SaleController::class, 'oneSale']);
 
 Route::get('seller', [SellerController::class, 'seller']);
+
+Route::get('bid/{id}', [BidController::class, 'bid']);
 
 Route::fallback(function () {
     return Inertia::render('404');

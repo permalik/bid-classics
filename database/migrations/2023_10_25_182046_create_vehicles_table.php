@@ -18,6 +18,9 @@ return new class extends Migration
             $table->foreignId('make_id');
             $table->foreignId('classic_id');
             $table->foreignId('condition_id');
+            $table->decimal('price');
+            $table->date('sell_by_date');
+            $table->boolean('is_sold');
             $table->integer('mileage');
             $table->string('image');
             $table->timestamps();

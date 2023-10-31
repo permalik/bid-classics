@@ -11,19 +11,4 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 class Seller extends Model
 {
     use HasFactory;
-
-    public function username(): BelongsTo
-    {
-        return $this->belongsTo(Username::class);
-    }
-
-    public function state(): BelongsTo
-    {
-        return $this->belongsTo(State::class);
-    }
-
-    public function sales(): HasMany
-    {
-        return $this->hasMany(Sale::class);
-    }
 }

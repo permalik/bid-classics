@@ -11,6 +11,7 @@ class SaleController extends Controller
     public function oneSale(Sale $sale)
     {
         return Inertia::render('Sale', [
+            'id' => $sale->id,
             'year' => $sale->vehicle->year->name,
             'make' => $sale->vehicle->make->name,
             'classic' => $sale->vehicle->classic->name,

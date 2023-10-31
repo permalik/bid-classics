@@ -13,8 +13,6 @@ return new class extends Migration
     {
         Schema::create('sellers', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('username_id');
-            $table->foreignId('state_id');
             $table->string('last_name');
             $table->string('first_name');
             $table->timestamps();

@@ -35,9 +35,4 @@ class Vehicle extends Model
     {
         return $this->belongsTo(Condition::class);
     }
-
-    public function sale(): HasOne
-    {
-        return $this->hasOne(Sale::class);
-    }
 }

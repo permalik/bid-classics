@@ -197,6 +197,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '7',
             'classic_id' => '29',
             'condition_id' => '3',
+            'price' => '46937.45',
+            'sell_by_date' => date('2023-11-07'),
+            'is_sold' => false,
             'mileage' => '135902',
             'image' => '1960.chevrolet.impala.jpeg',
         ]);
@@ -207,6 +210,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '3',
             'classic_id' => '4',
             'condition_id' => '3',
+            'price' => 29375.23,
+            'sell_by_date' => date('2023-11-08'),
+            'is_sold' => false,
             'mileage' => '82753',
             'image' => '1960.austin_healey.3000.jpeg',
         ]);
@@ -217,6 +223,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '20',
             'classic_id' => '28',
             'condition_id' => '1',
+            'price' => 83856.27,
+            'sell_by_date' => date('2023-11-12'),
+            'is_sold' => false,
             'mileage' => '67593',
             'image' => '1960.packard.hawk.png',
         ]);
@@ -227,6 +236,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '11',
             'classic_id' => '47',
             'condition_id' => '2',
+            'price' => 72462.43,
+            'sell_by_date' => date('2023-11-18'),
+            'is_sold' => false,
             'mileage' => '198364',
             'image' => '1961.ford.thunderbird.jpeg',
         ]);
@@ -237,6 +249,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '12',
             'classic_id' => '23',
             'condition_id' => '1',
+            'price' => 38267.74,
+            'sell_by_date' => date('2023-11-14'),
+            'is_sold' => false,
             'mileage' => '93827',
             'image' => '1961.jaguar.etype.jpeg',
         ]);
@@ -247,6 +262,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '7',
             'classic_id' => '18',
             'condition_id' => '3',
+            'price' => 37524.28,
+            'sell_by_date' => date('2023-11-21'),
+            'is_sold' => false,
             'mileage' => '57293',
             'image' => '1961.chevrolet.corvette.jpeg',
         ]);
@@ -257,6 +275,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '5',
             'classic_id' => '44',
             'condition_id' => '2',
+            'price' => 33464.76,
+            'sell_by_date' => date('2023-11-08'),
+            'is_sold' => false,
             'mileage' => '14835',
             'image' => '1962.buick.skylark.jpeg',
         ]);
@@ -267,6 +288,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '1',
             'classic_id' => '25',
             'condition_id' => '1',
+            'price' => 43872.73,
+            'sell_by_date' => date('2023-11-24'),
+            'is_sold' => false,
             'mileage' => '239418',
             'image' => '1962.alfa_romeo.giulietta.jpeg',
         ]);
@@ -277,6 +301,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '18',
             'classic_id' => '39',
             'condition_id' => '3',
+            'price' => 50276.35,
+            'sell_by_date' => date('2023-11-19'),
+            'is_sold' => false,
             'mileage' => '93284',
             'image' => '1962.nash.rambler.jpeg',
         ]);
@@ -287,6 +314,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '9',
             'classic_id' => '38',
             'condition_id' => '2',
+            'price' => 23937.43,
+            'sell_by_date' => date('2023-11-30'),
+            'is_sold' => false,
             'mileage' => '183627',
             'image' => '1963.dodge.polara.jpeg',
         ]);
@@ -297,6 +327,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '10',
             'classic_id' => '6',
             'condition_id' => '1',
+            'price' => 87253.37,
+            'sell_by_date' => date('2023-11-13'),
+            'is_sold' => false,
             'mileage' => '72834',
             'image' => '1963.fiat.500.jpeg',
         ]);
@@ -307,6 +340,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '13',
             'classic_id' => '32',
             'condition_id' => '3',
+            'price' => 25783.58,
+            'sell_by_date' => date('2023-11-15'),
+            'is_sold' => false,
             'mileage' => '51934',
             'image' => '1963.willys.jeep.wagoneer.jpeg',
         ]);
@@ -317,6 +353,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '21',
             'classic_id' => '11',
             'condition_id' => '2',
+            'price' => 36927.86,
+            'sell_by_date' => date('2023-11-23'),
+            'is_sold' => false,
             'mileage' => '76342',
             'image' => '1964.plymouth.barracuda.jpeg',
         ]);
@@ -327,6 +366,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '16',
             'classic_id' => '3',
             'condition_id' => '1',
+            'price' => 45769.37,
+            'sell_by_date' => date('2023-11-13'),
+            'is_sold' => false,
             'mileage' => '124863',
             'image' => '1964.mercedes_benz.230sl.jpeg',
         ]);
@@ -337,6 +379,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '2',
             'classic_id' => '40',
             'condition_id' => '3',
+            'price' => 83673.25,
+            'sell_by_date' => date('2023-11-04'),
+            'is_sold' => false,
             'mileage' => '61327',
             'image' => '1964.rambler.american.jpeg',
         ]);
@@ -347,6 +392,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '6',
             'classic_id' => '22',
             'condition_id' => '2',
+            'price' => 24845.74,
+            'sell_by_date' => date('2023-11-03'),
+            'is_sold' => false,
             'mileage' => '28947',
             'image' => '1965.cadillac.deville.jpg',
         ]);
@@ -357,6 +405,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '4',
             'classic_id' => '2',
             'condition_id' => '1',
+            'price' => 36486.98,
+            'sell_by_date' => date('2023-11-14'),
+            'is_sold' => false,
             'mileage' => '92384',
             'image' => '1965.bmw.1800ti.jpeg',
         ]);
@@ -367,6 +418,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '2',
             'classic_id' => '9',
             'condition_id' => '3',
+            'price' => 34536.25,
+            'sell_by_date' => date('2023-11-06'),
+            'is_sold' => false,
             'mileage' => '78932',
             'image' => '1965.amc.ambassador.jpeg',
         ]);
@@ -377,6 +431,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '22',
             'classic_id' => '26',
             'condition_id' => '2',
+            'price' => 62846.36,
+            'sell_by_date' => date('2023-11-26'),
+            'is_sold' => false,
             'mileage' => '52134',
             'image' => '1966.pontiac.gto.jpeg',
         ]);
@@ -387,6 +444,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '23',
             'classic_id' => '7',
             'condition_id' => '1',
+            'price' => 71234.89,
+            'sell_by_date' => date('2023-11-12'),
+            'is_sold' => false,
             'mileage' => '18374',
             'image' => '1966.porche.911.jpeg',
         ]);
@@ -397,6 +457,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '15',
             'classic_id' => '35',
             'condition_id' => '3',
+            'price' => 45123.67,
+            'sell_by_date' => date('2023-11-25'),
+            'is_sold' => false,
             'mileage' => '217483',
             'image' => '1966.mg.midget.jpeg',
         ]);
@@ -407,6 +470,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '19',
             'classic_id' => '5',
             'condition_id' => '2',
+            'price' => 46937.45,
+            'sell_by_date' => date('2023-11-14'),
+            'is_sold' => false,
             'mileage' => '92834',
             'image' => '1967.oldsmobile.442.jpeg',
         ]);
@@ -417,6 +483,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '27',
             'classic_id' => '12',
             'condition_id' => '1',
+            'price' => 65243.12,
+            'sell_by_date' => date('2023-11-10'),
+            'is_sold' => false,
             'mileage' => '62834',
             'image' => '1967.volkswagon.beetle.jpeg',
         ]);
@@ -427,6 +496,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '26',
             'classic_id' => '49',
             'condition_id' => '3',
+            'price' => 53128.75,
+            'sell_by_date' => date('2023-11-20'),
+            'is_sold' => false,
             'mileage' => '48192',
             'image' => '1967.triumph.tr4a.jpeg',
         ]);
@@ -437,6 +509,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '8',
             'classic_id' => '37',
             'condition_id' => '2',
+            'price' => 37982.34,
+            'sell_by_date' => date('2023-11-05'),
+            'is_sold' => false,
             'mileage' => '14853',
             'image' => '1968.chrysler.newport.jpeg',
         ]);
@@ -447,6 +522,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '28',
             'classic_id' => '1',
             'condition_id' => '1',
+            'price' => 89271.23,
+            'sell_by_date' => date('2023-11-18'),
+            'is_sold' => false,
             'mileage' => '109384',
             'image' => '1968.volvo.1800.jpeg',
         ]);
@@ -457,6 +535,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '3',
             'classic_id' => '46',
             'condition_id' => '3',
+            'price' => 76832.10,
+            'sell_by_date' => date('2023-11-01'),
+            'is_sold' => false,
             'mileage' => '72834',
             'image' => '1968.austin_healey.sprite.jpeg',
         ]);
@@ -467,6 +548,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '17',
             'classic_id' => '19',
             'condition_id' => '2',
+            'price' => 29534.65,
+            'sell_by_date' => date('2023-11-27'),
+            'is_sold' => false,
             'mileage' => '43928',
             'image' => '1969.mercury.cougar.jpeg',
         ]);
@@ -477,6 +561,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '24',
             'classic_id' => '8',
             'condition_id' => '1',
+            'price' => 62394.76,
+            'sell_by_date' => date('2023-11-16'),
+            'is_sold' => false,
             'mileage' => '29834',
             'image' => '1969.saab.99.jpeg',
         ]);
@@ -487,6 +574,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '12',
             'classic_id' => '50',
             'condition_id' => '3',
+            'price' => 45872.90,
+            'sell_by_date' => date('2023-11-09'),
+            'is_sold' => false,
             'mileage' => '69172',
             'image' => '1969.jaguar.xke.jpeg',
         ]);
@@ -497,6 +587,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '14',
             'classic_id' => '17',
             'condition_id' => '2',
+            'price' => 72618.43,
+            'sell_by_date' => date('2023-11-30'),
+            'is_sold' => false,
             'mileage' => '83927',
             'image' => '1970.lincoln.continental.jpeg',
         ]);
@@ -507,6 +600,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '7',
             'classic_id' => '13',
             'condition_id' => '1',
+            'price' => 58092.56,
+            'sell_by_date' => date('2023-11-22'),
+            'is_sold' => false,
             'mileage' => '54239',
             'image' => '1970.chevrolet.camaro.jpeg',
         ]);
@@ -517,6 +613,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '25',
             'classic_id' => '10',
             'condition_id' => '3',
+            'price' => 61938.27,
+            'sell_by_date' => date('2023-11-03'),
+            'is_sold' => false,
             'mileage' => '79283',
             'image' => '1971.studebaker.avanti.jpeg',
         ]);
@@ -527,6 +626,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '11',
             'classic_id' => '36',
             'condition_id' => '2',
+            'price' => 49823.21,
+            'sell_by_date' => date('2023-11-29'),
+            'is_sold' => false,
             'mileage' => '34872',
             'image' => '1971.ford.mustang.boss_351.jpeg',
         ]);
@@ -537,6 +639,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '20',
             'classic_id' => '16',
             'condition_id' => '1',
+            'price' => 37982.56,
+            'sell_by_date' => date('2023-11-26'),
+            'is_sold' => false,
             'mileage' => '42837',
             'image' => '1972.ford.maverick.jpeg',
         ]);
@@ -547,6 +652,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '5',
             'classic_id' => '43',
             'condition_id' => '3',
+            'price' => 64729.32,
+            'sell_by_date' => date('2023-11-08'),
+            'is_sold' => false,
             'mileage' => '92384',
             'image' => '1972.buick.riviera.jpeg',
         ]);
@@ -557,6 +665,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '2',
             'classic_id' => '30',
             'condition_id' => '2',
+            'price' => 82913.45,
+            'sell_by_date' => date('2023-11-07'),
+            'is_sold' => false,
             'mileage' => '58234',
             'image' => '1973.amc.javelin.jpeg',
         ]);
@@ -567,6 +678,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '9',
             'classic_id' => '15',
             'condition_id' => '1',
+            'price' => 29538.92,
+            'sell_by_date' => date('2023-11-23'),
+            'is_sold' => false,
             'mileage' => '28734',
             'image' => '1973.dodge.charger.jpeg',
         ]);
@@ -577,6 +691,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '9',
             'classic_id' => '14',
             'condition_id' => '3',
+            'price' => 72613.84,
+            'sell_by_date' => date('2023-11-15'),
+            'is_sold' => false,
             'mileage' => '34892',
             'image' => '1974.dodge.challenger.jpeg',
         ]);
@@ -587,6 +704,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '21',
             'classic_id' => '42',
             'condition_id' => '2',
+            'price' => 53498.76,
+            'sell_by_date' => date('2023-11-13'),
+            'is_sold' => false,
             'mileage' => '18293',
             'image' => '1974.plymouth.roadrunner.jpeg',
         ]);
@@ -597,6 +717,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '13',
             'classic_id' => '31',
             'condition_id' => '1',
+            'price' => 62391.28,
+            'sell_by_date' => date('2023-11-11'),
+            'is_sold' => false,
             'mileage' => '23948',
             'image' => '1975.jeep.cj5.jpeg',
         ]);
@@ -607,6 +730,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '6',
             'classic_id' => '24',
             'condition_id' => '3',
+            'price' => 81923.45,
+            'sell_by_date' => date('2023-11-21'),
+            'is_sold' => false,
             'mileage' => '47182',
             'image' => '1975.cadillac.fleetwood.brougham.jpeg',
         ]);
@@ -617,6 +743,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '2',
             'classic_id' => '41',
             'condition_id' => '2',
+            'price' => 29534.62,
+            'sell_by_date' => date('2023-11-02'),
+            'is_sold' => false,
             'mileage' => '92374',
             'image' => '1976.amc.rambler.matador.jpeg',
         ]);
@@ -627,6 +756,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '22',
             'classic_id' => '48',
             'condition_id' => '1',
+            'price' => 64728.93,
+            'sell_by_date' => date('2023-11-17'),
+            'is_sold' => false,
             'mileage' => '28374',
             'image' => '1976.pontiac.transam.jpeg',
         ]);
@@ -637,6 +769,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '2',
             'classic_id' => '27',
             'condition_id' => '3',
+            'price' => 72615.38,
+            'sell_by_date' => date('2023-11-24'),
+            'is_sold' => false,
             'mileage' => '49281',
             'image' => '1977.amc.gremlin.jpeg',
         ]);
@@ -647,6 +782,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '19',
             'classic_id' => '21',
             'condition_id' => '2',
+            'price' => 53497.89,
+            'sell_by_date' => date('2023-11-06'),
+            'is_sold' => false,
             'mileage' => '14853',
             'image' => '1977.oldsmobile.cutlass.supreme.jpeg',
         ]);
@@ -657,6 +795,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '15',
             'classic_id' => '33',
             'condition_id' => '1',
+            'price' => 81924.95,
+            'sell_by_date' => date('2023-11-04'),
+            'is_sold' => false,
             'mileage' => '128374',
             'image' => '1978.mg.mgb.jpeg',
         ]);
@@ -667,6 +808,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '8',
             'classic_id' => '20',
             'condition_id' => '3',
+            'price' => 62395.87,
+            'sell_by_date' => date('2023-11-28'),
+            'is_sold' => false,
             'mileage' => '72834',
             'image' => '1978.chrystler.cordoba.jpeg',
         ]);
@@ -677,6 +821,9 @@ class DatabaseSeeder extends Seeder
             'make_id' => '26',
             'classic_id' => '45',
             'condition_id' => '2',
+            'price' => 29536.47,
+            'sell_by_date' => date('2023-11-19'),
+            'is_sold' => false,
             'mileage' => '43928',
             'image' => '1979.triumph.spitfire.jpeg',
         ]);
@@ -687,540 +834,61 @@ class DatabaseSeeder extends Seeder
             'make_id' => '17',
             'classic_id' => '34',
             'condition_id' => '1',
+            'price' => 72619.23,
+            'sell_by_date' => date('2023-11-03'),
+            'is_sold' => false,
             'mileage' => '69172',
             'image' => '1979.dodge.magnum.jpeg',
         ]);
 
-        Username::create(['name' => 'MariaRodriguez739']);
-        Username::create(['name' => 'AhmedKim481']);
-        Username::create(['name' => 'ElenaPatel925']);
-        Username::create(['name' => 'MalikovJohnson602']);
-        Username::create(['name' => 'IsabellaNguyen813']);
-        Username::create(['name' => 'AmirahSmith267']);
-        Username::create(['name' => 'AidenWilliams549']);
-        Username::create(['name' => 'SofiaLee318']);
-        Username::create(['name' => 'LeandroChavez674']);
-        Username::create(['name' => 'MeiNakamura890']);
-
-        State::create(['name' => 'Alabama']);
-        State::create(['name' => 'Alaska']);
-        State::create(['name' => 'Arizona']);
-        State::create(['name' => 'Arkansas']);
-        State::create(['name' => 'California']);
-        State::create(['name' => 'Colorado']);
-        State::create(['name' => 'Connecticut']);
-        State::create(['name' => 'Delaware']);
-        State::create(['name' => 'Florida']);
-        State::create(['name' => 'Georgia']);
-        State::create(['name' => 'Hawaii']);
-        State::create(['name' => 'Idaho']);
-        State::create(['name' => 'Illinois']);
-        State::create(['name' => 'Indiana']);
-        State::create(['name' => 'Iowa']);
-        State::create(['name' => 'Kansas']);
-        State::create(['name' => 'Kentucky']);
-        State::create(['name' => 'Louisiana']);
-        State::create(['name' => 'Maine']);
-        State::create(['name' => 'Maryland']);
-        State::create(['name' => 'Massachusetts']);
-        State::create(['name' => 'Michigan']);
-        State::create(['name' => 'Minnesota']);
-        State::create(['name' => 'Mississippi']);
-        State::create(['name' => 'Missouri']);
-        State::create(['name' => 'Montana']);
-        State::create(['name' => 'Nebraska']);
-        State::create(['name' => 'Nevada']);
-        State::create(['name' => 'New Hampshire']);
-        State::create(['name' => 'New Jersey']);
-        State::create(['name' => 'New Mexico']);
-        State::create(['name' => 'New York']);
-        State::create(['name' => 'North Carolina']);
-        State::create(['name' => 'North Dakota']);
-        State::create(['name' => 'Ohio']);
-        State::create(['name' => 'Oklahoma']);
-        State::create(['name' => 'Oregon']);
-        State::create(['name' => 'Pennsylvania']);
-        State::create(['name' => 'Rhode Island']);
-        State::create(['name' => 'South Carolina']);
-        State::create(['name' => 'South Dakota']);
-        State::create(['name' => 'Tennessee']);
-        State::create(['name' => 'Texas']);
-        State::create(['name' => 'Utah']);
-        State::create(['name' => 'Vermont']);
-        State::create(['name' => 'Virginia']);
-        State::create(['name' => 'Washington']);
-        State::create(['name' => 'West Virginia']);
-        State::create(['name' => 'Wisconsin']);
-        State::create(['name' => 'Wyoming']);
-
         Seller::create([
-            'username_id' => '1',
-            'state_id' => '27',
             'last_name' => 'Rodriguez',
             'first_name' => 'Maria',
         ]);
 
         Seller::create([
-            'username_id' => '2',
-            'state_id' => '13',
             'last_name' => 'Kim',
             'first_name' => 'Ahmed',
         ]);
 
         Seller::create([
-            'username_id' => '3',
-            'state_id' => '5',
             'last_name' => 'Patel',
             'first_name' => 'Elena',
         ]);
 
         Seller::create([
-            'username_id' => '4',
-            'state_id' => '42',
             'last_name' => 'Johnson',
             'first_name' => 'Malikov',
         ]);
 
         Seller::create([
-            'username_id' => '5',
-            'state_id' => '19',
             'last_name' => 'Nguyen',
             'first_name' => 'Isabella',
         ]);
 
         Seller::create([
-            'username_id' => '6',
-            'state_id' => '36',
             'last_name' => 'Smith',
             'first_name' => 'Amirah',
         ]);
 
         Seller::create([
-            'username_id' => '7',
-            'state_id' => '10',
             'last_name' => 'Williams',
             'first_name' => 'Aiden',
         ]);
 
         Seller::create([
-            'username_id' => '8',
-            'state_id' => '31',
             'last_name' => 'Lee',
             'first_name' => 'Sofia',
         ]);
 
         Seller::create([
-            'username_id' => '9',
-            'state_id' => '25',
             'last_name' => 'Chavez',
             'first_name' => 'Leandro',
         ]);
 
         Seller::create([
-            'username_id' => '10',
-            'state_id' => '8',
             'last_name' => 'Nakamura',
             'first_name' => 'Mei',
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '1',
-            'seller_id' => '1',
-            'sell_by_date' => date('2023-11-07'),
-            'asking_price' => 46937.45,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '2',
-            'seller_id' => '1',
-            'sell_by_date' => date('2023-11-08'),
-            'asking_price' => 29375.23,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '3',
-            'seller_id' => '1',
-            'sell_by_date' => date('2023-11-12'),
-            'asking_price' => 83856.27,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '4',
-            'seller_id' => '1',
-            'sell_by_date' => date('2023-11-18'),
-            'asking_price' => 72462.43,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '5',
-            'seller_id' => '1',
-            'sell_by_date' => date('2023-11-14'),
-            'asking_price' => 38267.74,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '6',
-            'seller_id' => '2',
-            'sell_by_date' => date('2023-11-21'),
-            'asking_price' => 37524.28,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '7',
-            'seller_id' => '2',
-            'sell_by_date' => date('2023-11-08'),
-            'asking_price' => 33464.76,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '8',
-            'seller_id' => '2',
-            'sell_by_date' => date('2023-11-24'),
-            'asking_price' => 43872.73,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '9',
-            'seller_id' => '2',
-            'sell_by_date' => date('2023-11-19'),
-            'asking_price' => 50276.35,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '10',
-            'seller_id' => '2',
-            'sell_by_date' => date('2023-11-30'),
-            'asking_price' => 23937.43,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '11',
-            'seller_id' => '3',
-            'sell_by_date' => date('2023-11-13'),
-            'asking_price' => 87253.37,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '12',
-            'seller_id' => '3',
-            'sell_by_date' => date('2023-11-15'),
-            'asking_price' => 25783.58,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '13',
-            'seller_id' => '3',
-            'sell_by_date' => date('2023-11-23'),
-            'asking_price' => 36927.86,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '14',
-            'seller_id' => '3',
-            'sell_by_date' => date('2023-11-13'),
-            'asking_price' => 45769.37,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '15',
-            'seller_id' => '3',
-            'sell_by_date' => date('2023-11-04'),
-            'asking_price' => 83673.25,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '16',
-            'seller_id' => '4',
-            'sell_by_date' => date('2023-11-03'),
-            'asking_price' => 24845.74,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '17',
-            'seller_id' => '4',
-            'sell_by_date' => date('2023-11-14'),
-            'asking_price' => 36486.98,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '18',
-            'seller_id' => '4',
-            'sell_by_date' => date('2023-11-06'),
-            'asking_price' => 34536.25,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '19',
-            'seller_id' => '4',
-            'sell_by_date' => date('2023-11-26'),
-            'asking_price' => 62846.36,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '20',
-            'seller_id' => '4',
-            'sell_by_date' => date('2023-11-12'),
-            'asking_price' => 71234.89,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '21',
-            'seller_id' => '5',
-            'sell_by_date' => date('2023-11-25'),
-            'asking_price' => 45123.67,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '22',
-            'seller_id' => '5',
-            'sell_by_date' => date('2023-11-14'),
-            'asking_price' => 46937.45,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '23',
-            'seller_id' => '5',
-            'sell_by_date' => date('2023-11-10'),
-            'asking_price' => 65243.12,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '24',
-            'seller_id' => '5',
-            'sell_by_date' => date('2023-11-20'),
-            'asking_price' => 53128.75,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '25',
-            'seller_id' => '5',
-            'sell_by_date' => date('2023-11-05'),
-            'asking_price' => 37982.34,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '26',
-            'seller_id' => '6',
-            'sell_by_date' => date('2023-11-18'),
-            'asking_price' => 89271.23,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '27',
-            'seller_id' => '6',
-            'sell_by_date' => date('2023-11-01'),
-            'asking_price' => 76832.10,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '28',
-            'seller_id' => '6',
-            'sell_by_date' => date('2023-11-27'),
-            'asking_price' => 29534.65,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '29',
-            'seller_id' => '6',
-            'sell_by_date' => date('2023-11-16'),
-            'asking_price' => 62394.76,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '30',
-            'seller_id' => '6',
-            'sell_by_date' => date('2023-11-09'),
-            'asking_price' => 45872.90,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '31',
-            'seller_id' => '7',
-            'sell_by_date' => date('2023-11-30'),
-            'asking_price' => 72618.43,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '32',
-            'seller_id' => '7',
-            'sell_by_date' => date('2023-11-22'),
-            'asking_price' => 58092.56,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '33',
-            'seller_id' => '7',
-            'sell_by_date' => date('2023-11-03'),
-            'asking_price' => 61938.27,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '34',
-            'seller_id' => '7',
-            'sell_by_date' => date('2023-11-29'),
-            'asking_price' => 49823.21,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '35',
-            'seller_id' => '7',
-            'sell_by_date' => date('2023-11-26'),
-            'asking_price' => 37982.56,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '36',
-            'seller_id' => '8',
-            'sell_by_date' => date('2023-11-08'),
-            'asking_price' => 64729.32,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '37',
-            'seller_id' => '8',
-            'sell_by_date' => date('2023-11-07'),
-            'asking_price' => 82913.45,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '38',
-            'seller_id' => '8',
-            'sell_by_date' => date('2023-11-23'),
-            'asking_price' => 29538.92,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '39',
-            'seller_id' => '8',
-            'sell_by_date' => date('2023-11-15'),
-            'asking_price' => 72613.84,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '40',
-            'seller_id' => '8',
-            'sell_by_date' => date('2023-11-13'),
-            'asking_price' => 53498.76,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '41',
-            'seller_id' => '9',
-            'sell_by_date' => date('2023-11-11'),
-            'asking_price' => 62391.28,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '42',
-            'seller_id' => '9',
-            'sell_by_date' => date('2023-11-21'),
-            'asking_price' => 81923.45,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '43',
-            'seller_id' => '9',
-            'sell_by_date' => date('2023-11-02'),
-            'asking_price' => 29534.62,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '44',
-            'seller_id' => '9',
-            'sell_by_date' => date('2023-11-17'),
-            'asking_price' => 64728.93,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '45',
-            'seller_id' => '9',
-            'sell_by_date' => date('2023-11-24'),
-            'asking_price' => 72615.38,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '46',
-            'seller_id' => '10',
-            'sell_by_date' => date('2023-11-06'),
-            'asking_price' => 53497.89,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '47',
-            'seller_id' => '10',
-            'sell_by_date' => date('2023-11-04'),
-            'asking_price' => 81924.95,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '48',
-            'seller_id' => '10',
-            'sell_by_date' => date('2023-11-28'),
-            'asking_price' => 62395.87,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '49',
-            'seller_id' => '10',
-            'sell_by_date' => date('2023-11-19'),
-            'asking_price' => 29536.47,
-            'is_sold' => false
-        ]);
-
-        Sale::create([
-            'vehicle_id' => '50',
-            'seller_id' => '10',
-            'sell_by_date' => date('2023-11-03'),
-            'asking_price' => 72619.23,
-            'is_sold' => false
         ]);
     }
 }

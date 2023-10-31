@@ -1,7 +1,9 @@
 <script setup>
+import { Link } from '@inertiajs/vue3';
 import Header from "@/Components/Header.vue";
 
 defineProps({
+    id: String,
     year: String,
     make: String,
     classic: String,
@@ -75,9 +77,9 @@ defineProps({
                     </span>
                 </p>
             </section>
-            <button type="button">
+            <Link :href="'/bid/' + id" class="bid-link">
                 Place Bid
-            </button>
+            </Link>
         </div>
     </main>
 </template>
@@ -131,9 +133,11 @@ img {
     justify-content: space-between;
 }
 
-button {
+.bid-link {
     position: relative;
     left: 50%;
+
+    display: inline-block;
 
     margin: 2rem 0;
     padding: 0.25rem 1rem;
@@ -147,16 +151,16 @@ button {
     transition: color, background-color 250ms ease-in-out;
 }
 
-button:hover {
+.bid-link:hover {
     color: var(--primary-dark);
     background-color: var(--tertiary-accent);
 }
 
-button:focus {
+.bid-link:focus {
     outline: 2px solid var(--primary-accent);
 }
 
-button:active {
+.bid-link:active {
     opacity: 0.85;
 }
 </style>
