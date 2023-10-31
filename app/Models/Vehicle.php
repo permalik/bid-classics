@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 
 /**
  * @property float|mixed $price
+ * @property \Illuminate\Support\HigherOrderCollectionProxy|int|mixed|string|null $user_id
  */
 class Vehicle extends Model
 {
@@ -17,6 +18,11 @@ class Vehicle extends Model
     public function seller(): BelongsTo
     {
         return $this->belongsTo(Seller::class);
+    }
+
+    public function user(): BelongsTo
+    {
+        return $this->belongsTo(User::class);
     }
 
     public function vin(): BelongsTo
