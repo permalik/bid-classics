@@ -29,7 +29,7 @@ img {
 }
 
 p {
-    font-family: 'Lobster';
+    font-family: 'Lobster', sans-serif;
     font-size: 1.25rem;
 }
 </style>
