@@ -78,9 +78,9 @@ defineProps({
                     </span>
                 </p>
             </section>
-<!--            <Link :href="'/bid/' + id" class="bid-link">-->
-<!--                Place Bid-->
-<!--            </Link>-->
+            <Link :href="'/purchase/' + id" class="bid-link">
+                Purchase
+            </Link>
         </div>
     </main>
 </template>

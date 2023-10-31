@@ -1,8 +1,10 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\PurchaseController;
 use App\Http\Controllers\VehicleController;
 use App\Http\Controllers\VehiclesController;
+use App\Models\Vehicle;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -40,6 +42,8 @@ Route::middleware('auth')->group(function () {
 Route::get('/vehicles', [VehiclesController::class, 'allVehicles']);
 
 Route::get('vehicle/{vehicle}', [VehicleController::class, 'oneVehicle']);
+
+Route::get('purchase/{vehicle:id}', [PurchaseController::class, 'purchase']);
 
 Route::fallback(function () {
     return Inertia::render('404');
