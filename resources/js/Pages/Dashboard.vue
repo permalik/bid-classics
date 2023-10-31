@@ -1,6 +1,7 @@
 <script setup>
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import {Head} from '@inertiajs/vue3';
+import {Link} from '@inertiajs/vue3';
 
 defineProps({
     vehicles: Array,
@@ -11,7 +12,15 @@ defineProps({
     <Head title="Dashboard"/>
     <AuthenticatedLayout>
         <div class="wrapper">
-            <section>
+            <div v-if="vehicles.length < 1" class="search-vehicles-cta">
+                <h1>
+                    You don't own any vehicles!
+                </h1>
+                <Link href="/vehicles" class="search-cta">
+                    Search Now
+                </Link>
+            </div>
+            <section v-else>
                 <h1>
                     Your Garage
                 </h1>
@@ -38,6 +47,39 @@ defineProps({
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+}
+
+.search-vehicles-cta {
+    margin: 20rem 0 0;
+}
+
+.search-cta {
+    position: relative;
+    left: 50%;
+
+    padding: 0.25rem 1rem;
+
+    display: inline-block;
+
+    font-weight: 700;
+    color: var(--primary-accent);
+    border: 2px solid var(--primary-accent);
+    border-radius: 5px;
+
+    transform: translateX(-50%);
+}
+
+.search-cta:hover {
+    background-color: var(--primary-accent);
+    color: var(--primary-dark);
+}
+
+.search-cta:focus {
+    outline: 2px solid var(--primary-accent);
+}
+
+.search-cta:active {
+   opacity: 0.85;
 }
 
 section {
