@@ -1,11 +1,8 @@
 <?php
 
-use App\Http\Controllers\BidController;
 use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\SaleController;
-use App\Http\Controllers\SalesController;
-use App\Http\Controllers\SellerController;
-use App\Models\Sale;
+use App\Http\Controllers\VehicleController;
+use App\Http\Controllers\VehiclesController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -40,13 +37,9 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::get('/sales', [SalesController::class, 'allSales']);
+Route::get('/vehicles', [VehiclesController::class, 'allVehicles']);
 
-Route::get('sale/{sale}', [SaleController::class, 'oneSale']);
-
-Route::get('seller', [SellerController::class, 'seller']);
-
-Route::get('bid/{id}', [BidController::class, 'bid']);
+Route::get('vehicle/{vehicle}', [VehicleController::class, 'oneVehicle']);
 
 Route::fallback(function () {
     return Inertia::render('404');

@@ -2,12 +2,10 @@
 import {Link} from '@inertiajs/vue3';
 import Header from "@/Components/Header.vue";
 defineProps({
-    sales: Array,
-    sale: Object,
+    vehicles: Array,
     id: Number,
-    vehicle: Number,
+    vehicle: Object,
     name: String,
-    asking_price: Number,
     classic: String,
     make: Object,
 })
@@ -21,20 +19,20 @@ defineProps({
                 All Vehicles
             </h1>
             <ul>
-                <li v-for="sale of sales" class="vehicle-item">
-                    <Link :href="'/sale/' + sale.id" class="vehicle-link">
+                <li v-for="vehicle of vehicles" class="vehicle-item">
+                    <Link :href="'/vehicle/' + vehicle.id" class="vehicle-link">
                         <span class="vehicle-price">
-                            ${{ sale.asking_price }}
+                            ${{ vehicle.price }}
                         </span>
                         <div class="vehicle-name">
                             <span>
-                                {{ sale.vehicle.year.name }}
+                                {{ vehicle.year.name }}
                             </span>
                             <span>
-                                {{ sale.vehicle.make.name }}
+                                {{ vehicle.make.name }}
                             </span>
                             <span>
-                                {{ sale.vehicle.classic.name }}
+                                {{ vehicle.classic.name }}
                             </span>
                         </div>
                     </Link>

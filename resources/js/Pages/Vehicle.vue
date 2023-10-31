@@ -3,17 +3,16 @@ import { Link } from '@inertiajs/vue3';
 import Header from "@/Components/Header.vue";
 
 defineProps({
-    id: String,
+    id: Number,
+    vin: String,
     year: String,
     make: String,
     classic: String,
-    mileage: Number,
-    vin: String,
-    askingPrice: Number,
+    condition: String,
+    price: Number,
     sellByDate: Date,
+    mileage: Number,
     image: String,
-    sellerLastName: String,
-    sellerFirstName: String,
 })
 </script>
 
@@ -57,7 +56,7 @@ defineProps({
                         Asking Price:
                     </span>
                     <span>
-                        ${{ askingPrice }}
+                        ${{ price }}
                     </span>
                 </p>
                 <p>
@@ -68,18 +67,18 @@ defineProps({
                         {{ sellByDate }}
                     </span>
                 </p>
-                <p>
-                    <span>
-                        Vendor:
-                    </span>
-                    <span>
-                        {{ sellerFirstName }} {{ sellerLastName }}
-                    </span>
-                </p>
+<!--                <p>-->
+<!--                    <span>-->
+<!--                        Vendor:-->
+<!--                    </span>-->
+<!--                    <span>-->
+<!--                        {{ sellerFirstName }} {{ sellerLastName }}-->
+<!--                    </span>-->
+<!--                </p>-->
             </section>
-            <Link :href="'/bid/' + id" class="bid-link">
-                Place Bid
-            </Link>
+<!--            <Link :href="'/bid/' + id" class="bid-link">-->
+<!--                Place Bid-->
+<!--            </Link>-->
         </div>
     </main>
 </template>
