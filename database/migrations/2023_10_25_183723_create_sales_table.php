@@ -19,7 +19,6 @@ return new class extends Migration
             $table->date('sell_by_date');
             $table->decimal('asking_price');
             $table->decimal('purchase_price')->nullable();
-            $table->string('payment_method', 6)->nullable();
             $table->boolean('is_sold');
             $table->timestamps();
         });

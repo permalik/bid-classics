@@ -16,8 +16,8 @@ class Bid extends Model
         return $this->belongsTo(Sale::class);
     }
 
-    public function buyer(): HasOne
+    public function buyer(): BelongsTo
     {
-        return $this->hasOne(Buyer::class);
+        return $this->belongsTo(Buyer::class);
     }
 }

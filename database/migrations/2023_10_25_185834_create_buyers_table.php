@@ -16,7 +16,6 @@ return new class extends Migration
             $table->foreignId('user_id');
             $table->foreignId('username_id');
             $table->foreignId('state_id');
-            $table->foreignId('bid_id');
             $table->string('last_name', 35);
             $table->string('first_name', 35);
             $table->timestamps();

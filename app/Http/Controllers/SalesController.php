@@ -16,8 +16,16 @@ class SalesController extends Controller
             'vehicle.classic',
         )->get();
 
+        $prunedSales = [];
+
+        foreach ($sales as $sale) {
+            if (!$sale->is_sold) {
+                array_push($prunedSales, $sale);
+            }
+        }
+
         return Inertia::render('Sales', [
-            'sales' => $sales,
+            'sales' => $prunedSales,
         ]);
     }
 }

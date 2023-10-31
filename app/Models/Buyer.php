@@ -32,8 +32,8 @@ class Buyer extends Model
         return $this->hasMany(Sale::class);
     }
 
-    public function bids(): BelongsToMany
+    public function bids(): HasMany
     {
-        return $this->belongsToMany(Bid::class);
+        return $this->hasMany(Bid::class);
     }
 }
