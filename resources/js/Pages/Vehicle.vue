@@ -13,6 +13,8 @@ defineProps({
     sellByDate: Date,
     mileage: Number,
     image: String,
+    sellerLastName: String,
+    sellerFirstName: String,
 })
 </script>
 
@@ -67,14 +69,14 @@ defineProps({
                         {{ sellByDate }}
                     </span>
                 </p>
-<!--                <p>-->
-<!--                    <span>-->
-<!--                        Vendor:-->
-<!--                    </span>-->
-<!--                    <span>-->
-<!--                        {{ sellerFirstName }} {{ sellerLastName }}-->
-<!--                    </span>-->
-<!--                </p>-->
+                <p>
+                    <span>
+                        Vendor:
+                    </span>
+                    <span>
+                        {{ sellerFirstName }} {{ sellerLastName }}
+                    </span>
+                </p>
             </section>
 <!--            <Link :href="'/bid/' + id" class="bid-link">-->
 <!--                Place Bid-->

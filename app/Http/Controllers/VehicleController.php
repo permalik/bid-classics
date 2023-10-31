@@ -20,6 +20,8 @@ class VehicleController extends Controller
             'sellByDate' => $vehicle->sell_by_date,
             'mileage' => $vehicle->mileage,
             'image' => $vehicle->image,
+            'sellerLastName' => $vehicle->seller()->find($vehicle->seller_id)->last_name,
+            'sellerFirstName' => $vehicle->seller()->find($vehicle->seller_id)->first_name,
         ]);
     }
 }
