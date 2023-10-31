@@ -192,6 +192,7 @@ class DatabaseSeeder extends Seeder
         Condition::create(['name' => 'bad']);
 
         Vehicle::create([
+            'seller_id' => '1',
             'vin_id' => '1',
             'year_id' => '1',
             'make_id' => '7',
@@ -205,6 +206,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '1',
             'vin_id' => '2',
             'year_id' => '1',
             'make_id' => '3',
@@ -218,6 +220,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '1',
             'vin_id' => '3',
             'year_id' => '1',
             'make_id' => '20',
@@ -231,6 +234,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '1',
             'vin_id' => '4',
             'year_id' => '2',
             'make_id' => '11',
@@ -244,6 +248,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '1',
             'vin_id' => '5',
             'year_id' => '2',
             'make_id' => '12',
@@ -257,6 +262,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '2',
             'vin_id' => '6',
             'year_id' => '2',
             'make_id' => '7',
@@ -270,6 +276,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '2',
             'vin_id' => '7',
             'year_id' => '3',
             'make_id' => '5',
@@ -283,6 +290,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '2',
             'vin_id' => '8',
             'year_id' => '3',
             'make_id' => '1',
@@ -296,6 +304,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '2',
             'vin_id' => '9',
             'year_id' => '3',
             'make_id' => '18',
@@ -309,6 +318,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '2',
             'vin_id' => '10',
             'year_id' => '4',
             'make_id' => '9',
@@ -322,6 +332,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '3',
             'vin_id' => '11',
             'year_id' => '4',
             'make_id' => '10',
@@ -335,6 +346,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '3',
             'vin_id' => '12',
             'year_id' => '4',
             'make_id' => '13',
@@ -348,6 +360,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '3',
             'vin_id' => '13',
             'year_id' => '5',
             'make_id' => '21',
@@ -361,6 +374,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '3',
             'vin_id' => '14',
             'year_id' => '5',
             'make_id' => '16',
@@ -374,6 +388,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '3',
             'vin_id' => '15',
             'year_id' => '5',
             'make_id' => '2',
@@ -387,6 +402,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '4',
             'vin_id' => '16',
             'year_id' => '6',
             'make_id' => '6',
@@ -400,6 +416,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '4',
             'vin_id' => '17',
             'year_id' => '6',
             'make_id' => '4',
@@ -413,6 +430,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '4',
             'vin_id' => '18',
             'year_id' => '6',
             'make_id' => '2',
@@ -426,6 +444,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '4',
             'vin_id' => '19',
             'year_id' => '7',
             'make_id' => '22',
@@ -439,6 +458,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '4',
             'vin_id' => '20',
             'year_id' => '7',
             'make_id' => '23',
@@ -452,6 +472,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '5',
             'vin_id' => '21',
             'year_id' => '7',
             'make_id' => '15',
@@ -465,6 +486,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '5',
             'vin_id' => '22',
             'year_id' => '8',
             'make_id' => '19',
@@ -478,6 +500,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '5',
             'vin_id' => '23',
             'year_id' => '8',
             'make_id' => '27',
@@ -491,6 +514,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '5',
             'vin_id' => '24',
             'year_id' => '8',
             'make_id' => '26',
@@ -504,6 +528,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '5',
             'vin_id' => '25',
             'year_id' => '9',
             'make_id' => '8',
@@ -517,6 +542,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '6',
             'vin_id' => '26',
             'year_id' => '9',
             'make_id' => '28',
@@ -530,6 +556,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '6',
             'vin_id' => '27',
             'year_id' => '9',
             'make_id' => '3',
@@ -543,6 +570,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '6',
             'vin_id' => '28',
             'year_id' => '10',
             'make_id' => '17',
@@ -556,6 +584,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '6',
             'vin_id' => '29',
             'year_id' => '10',
             'make_id' => '24',
@@ -569,6 +598,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '6',
             'vin_id' => '30',
             'year_id' => '10',
             'make_id' => '12',
@@ -582,6 +612,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '7',
             'vin_id' => '31',
             'year_id' => '11',
             'make_id' => '14',
@@ -595,6 +626,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '7',
             'vin_id' => '32',
             'year_id' => '11',
             'make_id' => '7',
@@ -608,6 +640,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '7',
             'vin_id' => '33',
             'year_id' => '12',
             'make_id' => '25',
@@ -621,6 +654,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '7',
             'vin_id' => '34',
             'year_id' => '12',
             'make_id' => '11',
@@ -634,6 +668,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '7',
             'vin_id' => '35',
             'year_id' => '13',
             'make_id' => '20',
@@ -647,6 +682,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '8',
             'vin_id' => '36',
             'year_id' => '13',
             'make_id' => '5',
@@ -660,6 +696,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '8',
             'vin_id' => '37',
             'year_id' => '14',
             'make_id' => '2',
@@ -673,6 +710,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '8',
             'vin_id' => '38',
             'year_id' => '14',
             'make_id' => '9',
@@ -686,6 +724,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '8',
             'vin_id' => '39',
             'year_id' => '15',
             'make_id' => '9',
@@ -699,6 +738,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '8',
             'vin_id' => '40',
             'year_id' => '15',
             'make_id' => '21',
@@ -712,6 +752,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '9',
             'vin_id' => '41',
             'year_id' => '16',
             'make_id' => '13',
@@ -725,6 +766,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '9',
             'vin_id' => '42',
             'year_id' => '16',
             'make_id' => '6',
@@ -738,6 +780,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '9',
             'vin_id' => '43',
             'year_id' => '17',
             'make_id' => '2',
@@ -751,6 +794,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '9',
             'vin_id' => '44',
             'year_id' => '17',
             'make_id' => '22',
@@ -764,6 +808,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '9',
             'vin_id' => '45',
             'year_id' => '18',
             'make_id' => '2',
@@ -777,6 +822,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '10',
             'vin_id' => '46',
             'year_id' => '18',
             'make_id' => '19',
@@ -790,6 +836,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '10',
             'vin_id' => '47',
             'year_id' => '19',
             'make_id' => '15',
@@ -803,6 +850,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '10',
             'vin_id' => '48',
             'year_id' => '19',
             'make_id' => '8',
@@ -816,6 +864,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '10',
             'vin_id' => '49',
             'year_id' => '20',
             'make_id' => '26',
@@ -829,6 +878,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Vehicle::create([
+            'seller_id' => '10',
             'vin_id' => '50',
             'year_id' => '20',
             'make_id' => '17',
