@@ -79,7 +79,7 @@ defineProps({
 main {
     position: relative;
 
-    margin: clamp(5rem, 15vw, 20rem) 0 0 clamp(.125rem, 5vw, 15rem);
+    margin: clamp(10rem, 15vw, 20rem) 0 0 clamp(.125rem, 5vw, 15rem);
 
     display: flex;
     flex-flow: column nowrap;
